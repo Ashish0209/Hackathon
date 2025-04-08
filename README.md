@@ -37,17 +37,21 @@ LT_ACCESS_KEY=your_lambdatest_access_key
 ------------------------------------------------------------
 🧪 How to Run the Tests
 
-1. Install dependencies
+1. Activate your virtual environment
+
+    python -m venv venv
+
+2. On Windows:
+
+    venv\Scripts\activate
+
+3.  Install dependencies (including pytest)
 
     pip install -r requirements.txt
 
-2. Run tests in parallel
+4. Run the Test
 
-    pytest -n auto --html=report.html
-
-3. Re-run failed tests
-
-    pytest --reruns 2 --html=report.html
+    pytest -n 2 --html=report.html
 
 ------------------------------------------------------------
 📋 My Thought Process
@@ -79,7 +83,8 @@ login_and_Alert_automation/
 🌐 LambdaTest
 
 All tests run on LambdaTest infrastructure.
-A single test ID can be shared from the LambdaTest dashboard.
+Here is the Build Link to check all the tests run on the LamdaTest -->
+https://automation.lambdatest.com/share?shareId=H89W94X0OKXFI6OO8JF7X1F8JP12QXPIGAYHN9NXE7WJAMOUBIUPSZYK3LBJ0UCP&isThemeEnabled=true&themeVersion=v2
 
 ------------------------------------------------------------
 📸 Report
