@@ -52,7 +52,7 @@ LT_ACCESS_KEY=your_lambdatest_access_key
 4. Run the Test
 
     pytest -n 2 --html=report.html 
-           or 
+           OR
     pytest -n 2 tests/ --html=report.html --reruns 1
 
 ------------------------------------------------------------
