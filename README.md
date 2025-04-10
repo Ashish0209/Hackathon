@@ -67,19 +67,19 @@ LT_ACCESS_KEY=your_lambdatest_access_key
 ------------------------------------------------------------
 📂 Project Structure
 
+```plaintext
 login_and_Alert_automation/
-│
 ├── tests/
 │   ├── test_login.py
 │   └── test_alerts.py
-│
 ├── utils/
 │   ├── driver_setup.py
 │   └── env.py
-│
 ├── .env
 ├── requirements.txt
 └── report.html
+```
+
 
 ------------------------------------------------------------
 🌐 LambdaTest
